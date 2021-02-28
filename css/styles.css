@@ -1,0 +1,209 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(49, 155, 46);
+  color: white;
+  text-align: center;
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 40px 20px;
+  background: #20a031;
+  width: 62%;
+  color: floralwhite; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #165805; 
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.carousel {
+  background: #512DA8; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+#rememberMeCheckbox {
+  padding-top: 5px; }
+
+#guestCount {
+  margin-left: 20px;
+  align-items: center;
+  align-self: inherit; }
+
+.guestCountLabels {
+  margin-left: 5px;
+  align-items: center;
+  padding-top: 12px; }
+
+.modal .modal-header {
+  background-color: #50a82d;
+  color: floralwhite; }
+  .modal .modal-header .close {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+  }
+
+.navbar-nav>.active>a { 
+    text-decoration: fuchsia;
+}
+
+.navbar-brand{
+  padding-right: 310px;
+}
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.lineStyling:before,
+.lineStyling:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  background-color: floralwhite;
+}
+
+.lineStyling:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.lineStyling:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.articleOfTheMonth {
+  display: flex;
+  flex-direction: row;
+}
+.articleOfTheMonth:before, .articleOfTheMonth:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.articleOfTheMonth:before {
+  margin-right: 10px
+}
+.articleOfTheMonth:after {
+  margin-left: 10px
+}
+
+.card {
+  background-color: aquamarine;
+  height: 380px;
+}
+
+.card > .card-body > .card-title{
+  color: #203520;
+}
+
+.card > a, .card > a:hover, .card > a:focus, .card > a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  }
+
+.lineBreaksFlowers{
+  height:1px;
+  background-color:rgb(207, 216, 207);
+  width: 90%;
+}
+
+.flowerImages{
+  height: 150px;
+  width: 200px;
+  border:solid;
+  border-radius: 10px;
+  border-color: rgb(39, 167, 7);
+  border-width: 5px;
+}
+
+.fa-whatsapp  {
+  color:#fff;
+  align-content: center;
+  background:
+   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+   radial-gradient(#25d366 60%,transparent 0);
+}
+
+.fa-telegram  {
+  color:#fff;
+  align-content: center;
+  background:
+   linear-gradient(#3d5dc7,#325add) 1% 84%/0.5% 1% no-repeat,
+   radial-gradient(#325add 60%,transparent 0);
+}
+
+.gardeningHeadings{
+  padding-top:30px;
+}
+
+.back{
+  color: blue;
+  font-style: underline;
+  cursor: pointer;
+}
+
+
+/* mouse over link */
+.back:hover {
+  color: black;
+}
